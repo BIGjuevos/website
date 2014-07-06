@@ -1,0 +1,79 @@
+@font-face {
+	font-family: earthKid;
+	src: url(/fonts/EarthKid.ttf);
+}
+div.header {
+	text-align: center;
+	background-image: url(/img/header.png);
+	background-position: 50%;
+	height: 200px;
+}
+div.header h1 {
+	font-size: 72px;
+	margin-top: 60px;
+	color: #ecf0f1;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+	font-variant:small-caps;
+	animation: fadeInDown 1s;
+	-webkit-animation: fadeInDown 1s;
+}
+div.human {
+	background-color: #3498db;
+}
+div.human h2 {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Covered By Your Grace', cursive;
+	text-align: center;
+}
+div.coder {
+	background-color: #1abc9c;
+	text-align: right;
+}
+div.coder h2 {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Share Tech Mono', sans-serif;
+	text-align: center;
+}
+div.coder div.coder-stuff div {
+	text-align: center;
+}
+div.coder div.coder-stuff div.github {
+	background-color: white;
+}
+div.coder div.coder-stuff div.github img {
+	width: 100%;
+}
+div.coder div.coder-stuff div.dev1tv {
+	background-color: #cdd1d4;
+}
+div.coder div.coder-stuff div.dev1tv img {
+	width: 100%;
+}
+div.coder div.coder-stuff div.bookit {
+	background-color: #4B4B4B;
+}
+div.coder div.coder-stuff div.bookit img {
+	width: 100%;
+}
+div.coder div.coder-stuff div.linkedin {
+	background-color: white;
+}
+div.coder div.coder-stuff div.linkedin img {
+	width: 100%;
+}
+div.awesome {
+	background-color: #9b59b6;
+}
+div.awesome h3 {
+	font-size: 40px;
+	font-family: earthKid;
+	text-align: center;
+	color: #ecf0f1;
+}
+div.awesome p {
+	color: #ecf0f1;
+	text-align: center;
+}
