@@ -18,15 +18,8 @@ div.header h1 {
 	animation: fadeInDown 1s;
 	-webkit-animation: fadeInDown 1s;
 }
-div.human {
-	background-color: #3498db;
-}
-div.human h2 {
-	font-size: 40px;
-	font-weight: 700;
-	font-family: 'Covered By Your Grace', cursive;
-	text-align: center;
-}
+
+/* CODER */
 div.coder {
 	background-color: #1abc9c;
 	text-align: right;
@@ -36,6 +29,7 @@ div.coder h2 {
 	font-weight: 700;
 	font-family: 'Share Tech Mono', sans-serif;
 	text-align: center;
+    color: #ffffff;
 }
 div.coder div.coder-stuff div {
 	text-align: center;
@@ -64,6 +58,50 @@ div.coder div.coder-stuff div.linkedin {
 div.coder div.coder-stuff div.linkedin img {
 	width: 100%;
 }
+
+/* HUMAN */
+div.human {
+    background-color: #3498db;
+}
+div.human h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: center;
+    color: #ffffff;
+}
+div.human div.human-stuff div {
+    text-align: center;
+}
+div.human div.human-stuff div.wordpress {
+    text-align: center;
+    background-color: white;
+}
+div.human div.human-stuff div.wordpress img {
+    width: 100%;
+}
+div.human div.human-stuff div.lastfm {
+    text-align: center;
+    background-color: #e31b23;
+}
+div.human div.human-stuff div.lastfm img {
+    width: 100%;
+}
+div.human div.human-stuff div.twitter {
+    text-align: center;
+    background-color: #000000;
+}
+div.human div.human-stuff div.twitter img {
+    width: 100%;
+}
+div.human div.human-stuff div.foursquare {
+    text-align: center;
+    background-color: white;
+}
+div.human div.human-stuff div.foursquare img {
+    width: 100%;
+}
+
 div.awesome {
 	background-color: #9b59b6;
 }
